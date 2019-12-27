@@ -130,6 +130,6 @@ dmypy.json
 
 data/
 *.pth
-!netD_025.pth
-!netG_025.pth
+!DCGAN/pth/netD_025.pth
+!DCGAN/pth/netG_025.pth
 imgs/*.png

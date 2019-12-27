@@ -5,7 +5,7 @@ Some GAN model trained by PyTorch
 > A simple PyTorch Implementation of Generative Adversarial Networks, focusing on anime face drawing.
 
 ### DCGAN Network Architecture
-![DCGAN Network Architecture](DCGAN.png)
+![DCGAN Network Architecture](DCGAN/DCGAN.png)
 
 ### Environment Requirement
 ```
@@ -50,5 +50,9 @@ python main.py --mode test
 
 The test output image would be saved in test_imgs/
 
+#### Pretrained Model on GPU:
+    /pth/netD_025.pth
+    /pth/netG_025.pth
+
 ### Output
-![DCGAN Network Architecture](test_imgs/test.png)
+![DCGAN Network Architecture](DCGAN/test_imgs/test.png)
