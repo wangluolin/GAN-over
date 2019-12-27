@@ -129,3 +129,7 @@ dmypy.json
 .pyre/
 
 data/
+*.pth
+!netD_025.pth
+!netG_025.pth
+imgs/*.png
